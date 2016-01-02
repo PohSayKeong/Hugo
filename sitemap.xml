@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <loc>http://pohsaykeong.github.io/Hugo/</loc>
     <lastmod>2016-01-02T11:18:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/post/setup/</loc>
+    <loc>http://pohsaykeong.github.io/Hugo/post/setup/</loc>
     <lastmod>2016-01-02T11:18:04+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/about/</loc>
+    <loc>http://pohsaykeong.github.io/Hugo/about/</loc>
     <lastmod>2016-01-01T11:15:04+08:00</lastmod>
   </url>
   
