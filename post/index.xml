@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on How to setup a blog using Hugo for Windows </title>
+    <link>http://replace-this-with-your-hugo-site.com/post/</link>
+    <description>Recent content in Posts on How to setup a blog using Hugo for Windows </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2016 11:18:04 +0800</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to setup a blog using Hugo for Windows</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/setup/</link>
+      <pubDate>Sat, 02 Jan 2016 11:18:04 +0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/setup/</guid>
+      <description>&lt;p&gt;Download the appropriate version of Hugo from here: &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;https://github.com/spf13/hugo/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/download.png&#34; alt=&#34;download&#34; /&gt;
+Create a directory named &amp;ldquo;Hugo&amp;rdquo; anywhere you want, create two directories named &amp;ldquo;bin&amp;rdquo; and &amp;ldquo;Sites&amp;rdquo; in it as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/directory.png&#34; alt=&#34;directory&#34; /&gt;
+Extract the zip file you downloaded to the &amp;ldquo;bin&amp;rdquo; directory and rename the .exe file to &amp;ldquo;hugo.exe&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/renamed.png&#34; alt=&#34;renamed&#34; /&gt;
+Open up Command Prompt and run &lt;code&gt;hugo help&lt;/code&gt; , if you see an output that starts with &lt;code&gt;A Fast and Flexible img Site Generator&lt;/code&gt; , you are good to go.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/installed.png&#34; alt=&#34;installed&#34; /&gt;
+Change your directory to the &lt;code&gt;Sites&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;Run &lt;code&gt;hugo new site &amp;quot;your site name&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/newSite.png&#34; alt=&#34;newSite&#34; /&gt;
+You have just created your first site and you should be able to see a new &amp;ldquo;your site name&amp;rdquo; directory in your &amp;ldquo;Sites&amp;rdquo; folder.&lt;/p&gt;
+
+&lt;p&gt;Now change your directory to the &amp;ldquo;your site name&amp;rdquo; directory.&lt;/p&gt;
+
+&lt;p&gt;Run &lt;code&gt;hugo new about.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/newContent.png&#34; alt=&#34;newContent&#34; /&gt;
+This is your first piece of content on your blog, feel free to edit it however you like.&lt;/p&gt;
+
+&lt;p&gt;You would also want to install some themes for your blog by running &lt;code&gt;git clone --depth 1 --recursive https://github.com/spf13/hugoThemes.git themes&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/themes.png&#34; alt=&#34;themes&#34; /&gt;
+You can look up the whole list of themes at &lt;a href=&#34;https://github.com/spf13/hugoThemes.git&#34;&gt;https://github.com/spf13/hugoThemes.git&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Finally, fire the server up with &lt;code&gt;hugo server --theme=&amp;quot;the theme you want&amp;quot; --buildDrafts&lt;/code&gt; and you have just created your blog with Hugo!.
+&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/run.png&#34; alt=&#34;run&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
