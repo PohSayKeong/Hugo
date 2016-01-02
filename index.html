@@ -11,9 +11,7 @@
   <title> How to setup a blog using Hugo for Windows  &middot; How to setup a blog using Hugo for Windows  </title>
 
   
-  <link rel="stylesheet" href="http://pohsaykeong.github.io/Hugocss/poole.css">
-  <link rel="stylesheet" href="http://pohsaykeong.github.io/Hugocss/syntax.css">
-  <link rel="stylesheet" href="http://pohsaykeong.github.io/Hugocss/hyde.css">
+  <link rel="stylesheet" type="text/css" href="css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
@@ -29,7 +27,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="http://pohsaykeong.github.io/Hugo"><h1>How to setup a blog using Hugo for Windows </h1></a>
+	<h1>How to setup a blog using Hugo for Windows </h1>
       <p class="lead">
       An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
       </p>
@@ -51,54 +49,50 @@
       
   <div class="post">
     <h1 class="post-title">
-      <a href="http://pohsaykeong.github.io/Hugo/post/setup/">
         How to setup a blog using Hugo for Windows
-      </a>
     </h1>
 
     <span class="post-date">Sat, Jan 2, 2016</span>
 
     <p>Download the appropriate version of Hugo from here: <a href="https://github.com/spf13/hugo/releases">https://github.com/spf13/hugo/releases</a></p>
-
-<p><img src="/img/download.png" alt="download" />
+	<img src="img/download.png" alt="download" />
+<br><p>
 Create a directory named &ldquo;Hugo&rdquo; anywhere you want, create two directories named &ldquo;bin&rdquo; and &ldquo;Sites&rdquo; in it as well.</p>
 
-<p><img src="/img/directory.png" alt="directory" />
-Extract the zip file you downloaded to the &ldquo;bin&rdquo; directory and rename the .exe file to &ldquo;hugo.exe&rdquo;.</p>
+<img src="img/directory.png" alt="directory" />
+<p>Extract the zip file you downloaded to the &ldquo;bin&rdquo; directory and rename the .exe file to &ldquo;hugo.exe&rdquo;.</p>
 
-<p><img src="/img/renamed.png" alt="renamed" />
+<img src="img/renamed.png" alt="renamed" /><br><p>
 Open up Command Prompt and run <code>hugo help</code> , if you see an output that starts with <code>A Fast and Flexible img Site Generator</code> , you are good to go.</p>
 
-<p><img src="/img/installed.png" alt="installed" />
+<img src="img/installed.png" alt="installed" /><br><p>
 Change your directory to the <code>Sites</code> directory.</p>
 
 <p>Run <code>hugo new site &quot;your site name&quot;</code>.</p>
 
-<p><img src="/img/newSite.png" alt="newSite" />
+<img src="img/newSite.png" alt="newSite" /><br><p>
 You have just created your first site and you should be able to see a new &ldquo;your site name&rdquo; directory in your &ldquo;Sites&rdquo; folder.</p>
 
 <p>Now change your directory to the &ldquo;your site name&rdquo; directory.</p>
 
 <p>Run <code>hugo new about.md</code>.</p>
 
-<p><img src="/img/newContent.png" alt="newContent" />
+<img src="img/newContent.png" alt="newContent" /><br><p>
 This is your first piece of content on your blog, feel free to edit it however you like.</p>
 
 <p>You would also want to install some themes for your blog by running <code>git clone --depth 1 --recursive https://github.com/spf13/hugoThemes.git themes</code>.</p>
 
-<p><img src="/img/themes.png" alt="themes" />
+<p><img src="img/themes.png" alt="themes" />
 You can look up the whole list of themes at <a href="https://github.com/spf13/hugoThemes.git">https://github.com/spf13/hugoThemes.git</a> .</p>
 
 <p>Finally, fire the server up with <code>hugo server --theme=&quot;the theme you want&quot; --buildDrafts</code> and you have just created your blog with Hugo!.
-<img src="/img/run.png" alt="run" /></p>
+<img src="img/run.png" alt="run" /></p>
 
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="http://pohsaykeong.github.io/Hugo/about/">
         FOSSASIA
-      </a>
     </h1>
 
     <span class="post-date">Fri, Jan 1, 2016</span>
