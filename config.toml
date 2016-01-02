@@ -1,0 +1,3 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "How to setup a blog using Hugo for Windows "
